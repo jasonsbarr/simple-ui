@@ -2,9 +2,22 @@
   "name": "@jasonsbarr/simple-ui",
   "version": "1.0.0",
   "description": "A simple, reactive web UI library built on React for educational purposes",
-  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "./dist/index.cjs",
+  "source": "./src/index.js",
+  "exports": {
+    "require": "./dist/index.cjs",
+    "default": "./dist/index.js"
+  },
+  "module": "./dist/index.esm.js",
+  "unpkg": "./dist/index.umd.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier -w ./src",
+    "build": "microbundle"
   },
   "repository": {
     "type": "git",
