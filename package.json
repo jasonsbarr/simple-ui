@@ -1,0 +1,25 @@
+{
+  "name": "@jasonsbarr/simple-ui",
+  "version": "1.0.0",
+  "description": "A simple, reactive web UI library built on React for educational purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jasonsbarr/simple-ui.git"
+  },
+  "keywords": [
+    "ui",
+    "html",
+    "web",
+    "react"
+  ],
+  "author": "Jason Barr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonsbarr/simple-ui/issues"
+  },
+  "homepage": "https://github.com/jasonsbarr/simple-ui#readme"
+}
