@@ -21,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/jasonsbarr/simple-ui/issues"
   },
-  "homepage": "https://github.com/jasonsbarr/simple-ui#readme"
+  "homepage": "https://github.com/jasonsbarr/simple-ui#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
